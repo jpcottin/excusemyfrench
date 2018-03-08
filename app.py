@@ -1,11 +1,12 @@
 # This Python file uses the following encoding: utf-8
 from flask import Flask, flash, redirect, render_template, request, session, abort
 from random import randint
-from importlib import reload
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
+if sys.version[0] == '2':
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
 
 app = Flask(__name__)
 
