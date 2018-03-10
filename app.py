@@ -50,7 +50,7 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 
 image_folder = os.path.join('static', 'image')
 
-allImages=['i1.jpg', 'i2.jpg','i3.jpg','i4.jpg']
+allImages=['i1.jpg', 'i2.jpg','i3.jpg','i4.jpg','i5.jpg', 'i6.jpg','i7.jpg','i8.jpg']
 
 @app.route("/")
 
