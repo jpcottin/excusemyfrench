@@ -31,7 +31,7 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Mange Merde' ,'Maquereau' ,'Maquerelle' ,'Maraud' ,'Marchand De Tapis' ,'Margoulin' ,'Merdaillon' ,'Merdasse' ,'Merde' ,'Merde Molle' ,'Merdophile' ,'Merlan Frit' ,'Microcéphale' ,'Minable' ,'Minus' ,\
 'Miteux' ,'Moins Que Rien' ,'Molasson' ,'Mongol' ,'Mononeuronal' ,'Mont De Brin' ,'Morbleu' ,'Morfale' ,'Morille' ,'Morpion' ,'Mortecouille' ,'Morue' ,'Morveux' ,'Motherfucker' ,'Mou Du Bulbe' ,\
 'Mou Du Genou' ,'Mou Du Gland' ,'Moudlabite' ,'Moule à Gauffre' ,'Mouton De Panurge' ,'Méchant.' ,'Mécréant' ,'Mérule' ,'Nabot' ,'Nain De Jardin' ,'Nanar' ,'Naze' ,'Nazillon' ,'Necropédophile' ,\
-'Neuneu' ,'Nez De Boeuf' ,'Niais, Niaiseux' ,'Nigaud' ,'Niguedouille' ,'Noob' ,'Nounouille' ,'Nécrophile' ,'Obsédé' ,'Oiseau De Mauvaise Augure' ,'Olibrius' ,'Ordure Purulente' ,'Outre à Pisse' ,\
+'Neuneu' ,'Nez De Boeuf' ,'Niais', 'Niaiseux' ,'Nigaud' ,'Niguedouille' ,'Noob' ,'Nounouille' ,'Nécrophile' ,'Obsédé' ,'Oiseau De Mauvaise Augure' ,'Olibrius' ,'Ordure Purulente' ,'Outre à Pisse' ,\
 'Outrecuidant' ,'Pachyderme' ,'Paltoquet' ,'Panaris' ,'Parasite' ,'Parbleu' ,'Parvenu' ,'Patate' ,'Paumé' ,'Pauvre Con' ,'Paysan' ,'Peau De Bite' ,'Peau De Vache' ,'Pecore' ,'Peigne-cul' ,'Peine à Jouir' ,\
 'Pendard' ,'Pervers' ,'Pet De Moule' ,'Petite Merde' ,'Petzouille' ,'Phlegmon' ,'Pigeon' ,'Pignolo' ,'Pignouf' ,'Pimbêche' ,'Pinailleur' ,'Pine D’ours' ,'Pine D’huitre' ,'Pintade' ,'Pipistrelle Puante' ,\
 'Piqueniquedouille' ,'Pisse Froid' ,'Pisse-vinaigre' ,'Pisseuse' ,'Pissure' ,'Piètre' ,'Planqué' ,'Playboy De Superette' ,'Pleutre' ,'Plouc' ,'Poire' ,'Poireau' ,'Poivrot' ,'Polisson' ,'Poltron' ,\
