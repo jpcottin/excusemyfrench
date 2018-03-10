@@ -24,12 +24,12 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Face De Rat' ,'Faquin' ,'Faraud' ,'Faux Jeton' ,'Fesse D’huitre' ,'Fesse De Moule' ,'Fesses Molles' ,'Fiente' ,'Filou' ,'Fini à L’urine' ,'Fion' ,'Fiote' ,'Flaque De Pus' ,'Foireux' ,'Foldingue' ,\
 'Fonctionnaire' ,'Fouille Merde' ,'Four à Merde' ,'Fourbe' ,'Foutriquet' ,'Frapadingue' ,'Frappe' ,'Freluquet' ,'Fricoteur' ,'Frigide' ,'Fripouille' ,'Frippon' ,'Frustré' ,'Fumier' ,'Fumiste' ,'Furoncle' ,\
 'Félon' ,'Ganache' ,'Gangrène' ,'Garage A Bite' ,'Gibier De Potence' ,'Gland' ,'Glandeur' ,'Glandus' ,'Globicéphale' ,'Gnome' ,'Godiche' ,'Gogol' ,'Goinfre' ,'Gommeux' ,'Gougnafier' ,'Goujat' ,'Goulu' ,\
-'Gourdasse' ,'Gourgandin/e' ,'Grand Cornichon' ,'Grand Dépandeur D’andouilles' ,'Gras Du Bide' ,'Graveleux' ,'Gredin' ,'Grenouille' ,'Gringalet' ,'Grognasse' ,'Gros Caca Poilu' ,'Gros Con' ,'Gros Lard' ,\
+'Gourdasse' ,'Gourgandin', 'Gourgandine','Grand Cornichon' ,'Grand Dépandeur D’andouilles' ,'Gras Du Bide' ,'Graveleux' ,'Gredin' ,'Grenouille' ,'Gringalet' ,'Grognasse' ,'Gros Caca Poilu' ,'Gros Con' ,'Gros Lard' ,\
 'Grosse Merde Puante' ,'Grosse Truie Violette' ,'Grue' ,'Gueulard' ,'Gueule De Fion' ,'Gueule De Raie' ,'Gueux' ,'Gugus' ,'Guignol' ,'Has-been' ,'Hérétique' ,'Histrion' ,'Homoncule' ,'Hostie D’épais' ,\
 'Hurluberlu' ,'Hérétique' ,'Iconoclaste' ,'Idiot' ,'Ignare' ,'Illettré' ,'Imbibé' ,'Imbécile' ,'Impuissant' ,'Infâme Raie De Cul' ,'Ironie De La Création' ,'Ivrogne' ,'Jaune' ,'Jean-foutre' ,'Jobard' ,\
 'Jobastre' ,'Judas' ,'Kroumir' ,'Kéké' ,'Laideron' ,'Larve' ,'Lavedu' ,'Lépreux' ,'Loboto' ,'Loutre Analphabète' ,'Lèche-cul' ,'Malandrin' ,'Malotru' ,'Malpropre' ,'Manant' ,'Manche à Couille' ,\
 'Mange Merde' ,'Maquereau' ,'Maquerelle' ,'Maraud' ,'Marchand De Tapis' ,'Margoulin' ,'Merdaillon' ,'Merdasse' ,'Merde' ,'Merde Molle' ,'Merdophile' ,'Merlan Frit' ,'Microcéphale' ,'Minable' ,'Minus' ,\
-'Miteux' ,'Moins Que Rien' ,'Molasson' ,'Mongol' ,'Mononeuronal' ,'Mont De Brin' ,'Morbleu' ,'Morfale' ,'Morille' ,'Morpion' ,'Mortecouille' ,'Morue' ,'Morveux' ,'Motherfucker' ,'Mou Du Bulbe' ,\
+'Miteux' ,'Moins Que Rien' ,'Molasson' ,'Mongol' ,'Mononeuronal' ,'Mont De Brin' ,'Morbleu' ,'Morfale' ,'Morille' ,'Morpion' ,'Mortecouille' ,'Morue' ,'Morveux'  ,'Mou Du Bulbe' ,\
 'Mou Du Genou' ,'Mou Du Gland' ,'Moudlabite' ,'Moule à Gauffre' ,'Mouton De Panurge' ,'Méchant.' ,'Mécréant' ,'Mérule' ,'Nabot' ,'Nain De Jardin' ,'Nanar' ,'Naze' ,'Nazillon' ,'Necropédophile' ,\
 'Neuneu' ,'Nez De Boeuf' ,'Niais', 'Niaiseux' ,'Nigaud' ,'Niguedouille' ,'Noob' ,'Nounouille' ,'Nécrophile' ,'Obsédé' ,'Oiseau De Mauvaise Augure' ,'Olibrius' ,'Ordure Purulente' ,'Outre à Pisse' ,\
 'Outrecuidant' ,'Pachyderme' ,'Paltoquet' ,'Panaris' ,'Parasite' ,'Parbleu' ,'Parvenu' ,'Patate' ,'Paumé' ,'Pauvre Con' ,'Paysan' ,'Peau De Bite' ,'Peau De Vache' ,'Pecore' ,'Peigne-cul' ,'Peine à Jouir' ,\
