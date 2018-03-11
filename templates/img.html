@@ -7,7 +7,7 @@
 
 <hr width="50%" size="8" />
 
-<div align="center"><img src="{{ image }}" alt="" class="widthImage"/></div>
+<div align="center"><img src="{{ url_for('static', filename=image) }}" alt="" class="widthImage"/></div>
 <p>
 <input type="button" value="Encore" onClick="window.location.reload()">
 
