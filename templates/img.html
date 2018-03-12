@@ -11,6 +11,15 @@
 <p>
 <input type="button" value="Encore" onClick="window.location.reload()">
 
+<p>
+
+<a href="#" id="link" target="_blank">Link to this</a>
+
+<script type="text/javascript">
+window.onload = function(){
+    document.getElementById("link").href = window.location.toString()+ '/' + {{ins}} + '/' + {{imgNumber}};
+}
+</script>
 
 
 {% endblock %}
