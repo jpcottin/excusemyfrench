@@ -90,6 +90,8 @@ allImages=['i1.jpg', 'i2.jpg','i3.jpg','i4.jpg','i5.jpg', 'i6.jpg','i7.jpg','i8.
 'i10.jpg','i11.jpg', 'i12.jpg','i13.jpg','i14.jpg','i15.jpg', 'i16.jpg','i17.jpg','i18.jpg','i19.jpg',\
 'i20.jpg','i21.jpg','i22.jpg']
 
+imageFolder= 'image/'
+
 @app.route("/")
 
 def index():
@@ -111,7 +113,7 @@ def img():
     insulte = insultes[randomNumber]
     randomNumberImg = randint(0,len(allImages)-1) 
     centerImage=allImages[randomNumberImg]
-    return render_template('img.html',quote=insulte, image='image/'+centerImage)
+    return render_template('img.html',quote=insulte, image=imageFolder+centerImage,ins=randomNumber,imgNumber=randomNumberImg)
 
 @app.route("/series")
 
@@ -120,15 +122,16 @@ def series():
 	insulte = insultes[randomNumber]
 	randomNumberImg = randint(0,len(allImages)-1) 
 	centerImage=allImages[randomNumberImg]
-	return render_template('series.html',quote=insulte, image='image/'+centerImage)
+	return render_template('series.html',quote=insulte, image=imageFolder+centerImage)
 
-@app.route("/ins/<int:quo>/<int:img>/")
+@app.route("/img/<int:quo>/<int:img>/")
 
 def ins (quo, img):
 	insulte = insultes[quo]
 	centerImage=allImages[img]
-	return render_template('img.html',quote=insulte, image='image/'+centerImage)
+	return render_template('img_noencore.html',quote=insulte, image=imageFolder+centerImage)
 
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=80)
+	app.debug=True
+	app.run(host='0.0.0.0', port=8000)
