@@ -97,7 +97,7 @@ imageFolder= 'image/'
 def index():
     randomNumber = randint(0,len(insultes)-1) 
     insulte = insultes[randomNumber]  
-    return render_template('test.html',quote=insulte)
+    return render_template('simple.html',quote=insulte)
  
 @app.route("/api")
 
