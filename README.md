@@ -12,14 +12,17 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
     will return you a random French insult
       https://excusemyfrench.herokuapp.com/
 
-
 ### Insult with image
     will include not only a random French insult *but also* a random picture of an authentic French person.
       https://excusemyfrench.herokuapp.com/img 
 
+### Specific Insult with specific image
+    will include a specific insult/picture (based of the index in fixed tables)
+      https://excusemyfrench.herokuapp.com/img/<number>/<number> like https://excusemyfrench.herokuapp.com/img/127/1
+
 ### Flow of Insults with image
     will refresh automatically the insult ( with image ) every second
-      https://excusemyfrench.herokuapp.com/series
+      https://excusemyfrench.herokuapp.com/series      
 
 ### API version
     will return a JSON response of the insult ( see [Detail of the API] )
