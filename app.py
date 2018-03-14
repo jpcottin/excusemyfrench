@@ -83,7 +83,8 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Vieux Tableau' ,'Vieux Tromblon' ,'Vilain' ,'Vilain Comme Une Couvée De Singe' ,'Vioque' ,\
 'Vipère Lubrique' ,'Voleur' ,'Vorace' ,'Voyou' ,'Vérole' ,'Wisigoth' ,'Yéti Baveux' ,'Zigomar' ,'Zigoto',\
 'Zonard' ,'Zouave' ,'Zoulou' ,'Zozo' ,'Zéro',\
-'Bachi-Bouzouk des Carpathes', 'Bougre d’ectoplasme de moule à gaufres']
+'Bachi-Bouzouk des Carpathes', 'Bougre d’ectoplasme de moule à gaufres', 'Tas de cornichons','Grotesque polichinelle',\
+'Bougre de faux jeton à la sauce tartare']
 
 
 allImages=['i1.jpg', 'i2.jpg','i3.jpg','i4.jpg','i5.jpg', 'i6.jpg','i7.jpg','i8.jpg','i9.jpg',\
