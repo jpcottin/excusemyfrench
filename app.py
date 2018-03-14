@@ -1,5 +1,5 @@
 # This Python file uses the following encoding: utf-8
-from flask import Flask, flash, redirect, render_template, request, session, abort
+from flask import Flask, flash, redirect, render_template, request, session, abort,send_from_directory
 from random import randint
 import os
 import sys
@@ -131,6 +131,13 @@ def ins (quo, img):
 	insulte = insultes[quo]
 	centerImage=allImages[img]
 	return render_template('img_noencore.html',quote=insulte, image=imageFolder+centerImage)
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 
 @app.errorhandler(500)
 def internal_error(error):
