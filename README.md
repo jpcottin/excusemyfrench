@@ -1,4 +1,4 @@
-# excusemyfrench*
+# Excusemyfrench
 
 
 excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/ 
