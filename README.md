@@ -36,7 +36,7 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
 
 * **URL**
 
-  /api
+  /api/v1
 
 * **Method:**
 
@@ -55,7 +55,18 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{result: Guignol}`
+    **Content:** Sucessful Response will return the insult as a STRING and its index number in the base used.
+
+    ```json
+    { 
+      "insult": 
+      { 
+        "text": "Playboy De Superette" , 
+        "index": 356
+      } 
+    }
+    ```
+
  
 * **Error Response:**
 
@@ -66,7 +77,7 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
 
   ```javascript
     $.ajax({
-      url: "/api",
+      url: "/api/v1",
       dataType: "json",
       type : "GET",
       success : function(r) {
@@ -76,5 +87,67 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
   ```
 
   or a simple
-`curl https://excusemyfrench.herokuapp.com/api` will return 
-`{result: Putassière}`
+`curl https://excusemyfrench.herokuapp.com/api/v1` will return 
+`{"insult": { "text": "Playboy De Superette" , "index": 356} }`
+
+
+### Return of an insult AND an image
+  Returns json data of an insult and the base64 encoded image
+
+* **URL**
+
+  /api/v1/img
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   None
+
+* **Data Params**
+
+  None
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** Sucessful Response will return the insult as a STRING and its index number in the base used.
+    In Addition it will return an image with its base64 encoded data, its mimetype and its index number in the base used.
+
+  ```json
+  {
+  "insult": {
+    "text": "Loutre Analphabète",
+    "index": 254
+  },
+  "image": {
+    "data": "/9j/4AA*****",
+    "mimetype": "image/jpg",
+    "indexImg": 10
+  }
+}
+```
+
+ 
+* **Error Response:**
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `{ error : "You are unauthorized to make this request." }`
+
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/api/v1/img",
+      dataType: "json",
+      type : "GET",
+      success : function(r) {
+        console.log(r);
+      }
+    });
+  ```
+
