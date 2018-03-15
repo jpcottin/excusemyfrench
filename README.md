@@ -118,8 +118,8 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
     **Content:** Sucessful Response will return the insult as a STRING and its index number in the base used.
     In Addition it will return an image with its base64 encoded data, its mimetype and its index number in the base used.
 
-  ```json
-  {
+```json
+{
   "insult": {
     "text": "Loutre Analphabète",
     "index": 254
@@ -129,7 +129,7 @@ excusemyfrench is the application beyond https://excusemyfrench.herokuapp.com/
     "mimetype": "image/jpg",
     "indexImg": 10
   }
-}
+ }  
 ```
 
  
