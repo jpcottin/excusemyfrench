@@ -4,6 +4,8 @@ from random import randint
 import os
 import sys
 import time
+import base64 
+
 
 if sys.version[0] == '2':
     reload(sys)
@@ -70,7 +72,7 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Sabraque' ,'Sac à Brin' ,'Sac à Foutre' ,'Sac à Gnole' ,'Sac à Merde' ,'Sac à Viande' ,'Sac à Vin',\
 'Sacrebleu' ,'Sacrement' ,'Sacripan' ,'Sagouin' ,'Salaud' ,'Saleté' ,'Saligaud' ,'Salopard' ,\
 'Salope' ,'Saloperie' ,'Salopiaud' ,'Saltimbanque' ,'Saperlipopette' ,'Saperlotte' ,'Sauvage' ,\
-'Scaphandrier D’eau De Vaiselle' ,'Scatophile' ,'Scelerat' ,'Schnock' ,'Schpountz' ,'Serpillière à Foutre' ,\
+'Scaphandrier D’eau De Vaiselle' ,'Scatophile' ,'Scélérat' ,'Schnock' ,'Schpountz' ,'Serpillière à Foutre' ,\
 'Sinistrose Ambulante' ,'Sinoque' ,'Sodomite' ,'Sombre Conne' ,'Sombre Crétin' ,'Sot' ,'Souillon' ,'Sous Merde',\
 'Spermatozoide Avarié' ,'Spermiducte' ,'Suintance' ,'Sybarite' ,'Syphonné' ,'Tabarnak' ,\
 'Tabernacle' ,'Tâcheron' ,'Tafiole' ,'Tanche' ,'Tartignole' ,'Taré' ,'Tas De Saindoux' ,'Tasse à Foutre',\
@@ -106,6 +108,32 @@ def api():
     randomNumber = randint(0,len(insultes)-1) 
     insulte = insultes[randomNumber]  
     return "{result: " + insulte+"}"
+
+@app.route("/api/v1")
+
+def apiv1():
+    randomNumber = randint(0,len(insultes)-1) 
+    insulte = insultes[randomNumber]
+    result = "{\"insult\": { \"text\": \"" + insulte+ "\" , \"index\": "+ str(randomNumber)+"} }"
+    return result
+
+
+@app.route("/api/v1/img")
+
+def apiv1img():
+    randomNumber = randint(0,len(insultes)-1) 
+    insulte = insultes[randomNumber]
+    randomNumberImg = randint(0,len(allImages)-1) 
+    centerImage=allImages[randomNumberImg]
+    image = open('static/'+imageFolder+'/'+centerImage, 'rb')
+    image_read = image.read()
+    image_64_encode = base64.encodestring(image_read)
+    result = "{\"insult\": { \"text\": \"" + insulte+ "\" , \"index\": "+ str(randomNumber)+"},"
+    result += " \"image\": { \"data\": \"" + image_64_encode+"\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
+    result+=  str(randomNumberImg)+"} }"    
+    return result
+
+
 
 @app.route("/img")
 
