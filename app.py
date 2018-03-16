@@ -129,7 +129,7 @@ def apiv1img():
     image_read = image.read()
     image_64_encode = base64.encodestring(image_read)
     result = "{\"insult\": { \"text\": \"" + insulte+ "\" , \"index\": "+ str(randomNumber)+"},"
-    result += " \"image\": { \"data\": \"" + str(image_64_encode).decode('utf-8')+"\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
+    result += " \"image\": { \"data\": \"" + str(image_64_encode)+"\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
     result+=  str(randomNumberImg)+"} }"    
     return result
 
