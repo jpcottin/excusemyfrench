@@ -74,7 +74,7 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Salope' ,'Saloperie' ,'Salopiaud' ,'Saltimbanque' ,'Saperlipopette' ,'Saperlotte' ,'Sauvage' ,\
 'Scaphandrier D’eau De Vaiselle' ,'Scatophile' ,'Scélérat' ,'Schnock' ,'Schpountz' ,'Serpillière à Foutre' ,\
 'Sinistrose Ambulante' ,'Sinoque' ,'Sodomite' ,'Sombre Conne' ,'Sombre Crétin' ,'Sot' ,'Souillon' ,'Sous Merde',\
-'Spermatozoide Avarié' ,'Spermiducte' ,'Suintance' ,'Sybarite' ,'Syphonné' ,'Tabarnak' ,\
+'Spermatozoide Avarié' ,'Spermiducte' ,'Suintance' ,'Sybarite' ,'Siphonné' ,'Tabarnak' ,\
 'Tabernacle' ,'Tâcheron' ,'Tafiole' ,'Tanche' ,'Tartignole' ,'Taré' ,'Tas De Saindoux' ,'Tasse à Foutre',\
 'Thon' ,'Tire Couilles' ,'Tocard' ,'Tonnerre De Brest' ,'Toqué' ,'Trainé' ,'Traîne Savate' ,\
 'Tricard' ,'Triple Buse' ,'Tromblon' ,'Tronche De Cake' ,'Trou De Balle' ,'Trou Du Cul' ,'Troubignole',\
