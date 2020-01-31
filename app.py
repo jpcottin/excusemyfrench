@@ -86,6 +86,7 @@ insultes=['Abruti' ,'Ahuri' ,'Aigrefin','Anachorète' ,'Analphabète' ,'Andouill
 'Vipère Lubrique' ,'Voleur' ,'Vorace' ,'Voyou' ,'Vérole' ,'Wisigoth' ,'Yéti Baveux' ,'Zigomar' ,'Zigoto',\
 'Zonard' ,'Zouave' ,'Zoulou' ,'Zozo' ,'Zéro',\
 'Bachi-Bouzouk des Carpathes', 'Bougre d’ectoplasme de moule à gaufres', 'Tas de cornichons','Grotesque polichinelle',\
+'Vapoteur', 'Pantacourtiste', 'Tatoué', 'Influenceur', 'Totebaguiste', 'Trottinettiste', 'Uberiste', 'Millenial',\
 'Bougre de faux jeton à la sauce tartare']
 
 
