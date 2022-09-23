@@ -4,6 +4,6 @@ Flask==1.1.2
 itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
-protobuf==3.15.0
+protobuf==3.18.3
 six==1.15.0
 Werkzeug==1.0.1
