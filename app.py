@@ -120,21 +120,28 @@ def apiv1():
 
 
 @app.route("/api/v1/img")
-
 def apiv1img():
-    randomNumber = randint(0,len(insultes)-1) 
-    insulte = insultes[randomNumber]
-    randomNumberImg = randint(0,len(allImages)-1) 
-    centerImage=allImages[randomNumberImg]
-    image = open('static/'+imageFolder+'/'+centerImage, 'rb')
-    image_read = image.read()
-    image_64_encode = base64.encodestring(image_read)
-    result = "{\"insult\": { \"text\": \"" + insulte+ "\" , \"index\": "+ str(randomNumber)+"},"
-    result += " \"image\": { \"data\": \"" + str(image_64_encode)+"\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
-    result+=  str(randomNumberImg)+"} }"    
-    return result
+    try:
+        randomNumber = randint(0, len(insultes) - 1)
+        insulte = insultes[randomNumber]
+        randomNumberImg = randint(0, len(allImages) - 1)
+        centerImage = allImages[randomNumberImg]
 
+        image_path = os.path.join('static', imageFolder, centerImage)
+        with open(image_path, 'rb') as image_file:
+            image_read = image_file.read()
+            image_64_encode = base64.b64encode(image_read).decode('utf-8')
 
+        result = "{\"insult\": { \"text\": \"" + insulte + "\" , \"index\": " + str(randomNumber) + "},"
+        result += " \"image\": { \"data\": \"" + image_64_encode + "\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
+        result += str(randomNumberImg) + "} }"
+
+        return result
+    except FileNotFoundError:
+        return "Image file not found", 404
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+        return "Internal Server Error", 500
 
 @app.route("/img")
 
