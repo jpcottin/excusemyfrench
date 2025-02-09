@@ -1,6 +1,7 @@
 # This Python file uses the following encoding: utf-8
 from flask import Flask, flash, redirect, render_template, request, session, abort,send_from_directory
 from random import randint
+import json
 import os
 import sys
 import time
@@ -97,26 +98,32 @@ allImages=['i1.jpg', 'i2.jpg','i3.jpg','i4.jpg','i5.jpg', 'i6.jpg','i7.jpg','i8.
 imageFolder= 'image/'
 
 @app.route("/")
-
 def index():
-    randomNumber = randint(0,len(insultes)-1) 
-    insulte = insultes[randomNumber]  
-    return render_template('simple.html',quote=insulte)
- 
-@app.route("/api")
+    randomNumber = randint(0, len(insultes) - 1)
+    insulte = insultes[randomNumber]
+    return render_template('simple.html', quote=insulte)
 
+
+@app.route("/api")
 def api():
-    randomNumber = randint(0,len(insultes)-1) 
-    insulte = insultes[randomNumber]  
-    return "{result: " + insulte+"}"
+    randomNumber = randint(0, len(insultes) - 1)
+    insulte = insultes[randomNumber]
+
+    return json.dumps({"result": insulte})
+
 
 @app.route("/api/v1")
-
 def apiv1():
-    randomNumber = randint(0,len(insultes)-1) 
+    randomNumber = randint(0, len(insultes) - 1)
     insulte = insultes[randomNumber]
-    result = "{\"insult\": { \"text\": \"" + insulte+ "\" , \"index\": "+ str(randomNumber)+"} }"
-    return result
+
+    result_dict = {
+        "insult": {
+            "text": insulte,
+            "index": randomNumber
+        }
+    }
+    return json.dumps(result_dict)
 
 
 @app.route("/api/v1/img")
@@ -132,11 +139,19 @@ def apiv1img():
             image_read = image_file.read()
             image_64_encode = base64.b64encode(image_read).decode('utf-8')
 
-        result = "{\"insult\": { \"text\": \"" + insulte + "\" , \"index\": " + str(randomNumber) + "},"
-        result += " \"image\": { \"data\": \"" + image_64_encode + "\", \"mimetype\" : \"image/jpg\",  \"indexImg\": "
-        result += str(randomNumberImg) + "} }"
+        result_dict = {
+            "insult": {
+                "text": insulte,
+                "index": randomNumber
+            },
+            "image": {
+                "data": image_64_encode,
+                "mimetype": "image/jpg",
+                "indexImg": randomNumberImg
+            }
+        }
+        return json.dumps(result_dict)
 
-        return result
     except FileNotFoundError:
         return "Image file not found", 404
     except Exception as e:
