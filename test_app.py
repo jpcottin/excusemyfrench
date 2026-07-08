@@ -1,7 +1,7 @@
 import unittest
 import json
 import base64
-from app import app
+from app import app, insultes
 
 class ExcuseMyFrenchTests(unittest.TestCase):
 
@@ -30,7 +30,49 @@ class ExcuseMyFrenchTests(unittest.TestCase):
         self.assertIn('insult', data)
         self.assertIn('text', data['insult'])
         self.assertIn('index', data['insult'])
+        self.assertIn('level', data['insult'])
         self.assertIsInstance(data['insult']['index'], int)
+        self.assertIn(data['insult']['level'], (1, 2, 3))
+
+    def test_api_v1_index_matches_dataset(self):
+        """The returned index must point at the returned text in the full list."""
+        response = self.app.get('/api/v1')
+        data = json.loads(response.data)
+        self.assertEqual(insultes[data['insult']['index']]['text'],
+                         data['insult']['text'])
+
+    def test_level_filtering(self):
+        """?level=N must only serve insults of level N or below."""
+        for max_level in (1, 2):
+            for _ in range(30):
+                response = self.app.get(f'/api/v1?level={max_level}')
+                self.assertEqual(response.status_code, 200)
+                data = json.loads(response.data)
+                self.assertLessEqual(data['insult']['level'], max_level)
+
+    def test_level_default_serves_everything(self):
+        """Without ?level, all three levels must be reachable."""
+        seen = set()
+        for _ in range(300):
+            data = json.loads(self.app.get('/api/v1').data)
+            seen.add(data['insult']['level'])
+            if seen == {1, 2, 3}:
+                break
+        self.assertEqual(seen, {1, 2, 3})
+
+    def test_invalid_level_returns_400(self):
+        """Out-of-range or non-numeric levels must return 400."""
+        for bad in ('0', '4', 'abc', '-1', '1.5'):
+            response = self.app.get(f'/api/v1?level={bad}')
+            self.assertEqual(response.status_code, 400, f'level={bad}')
+        response = self.app.get('/api/v1/img?level=42')
+        self.assertEqual(response.status_code, 400)
+
+    def test_html_routes_accept_level(self):
+        """HTML routes must accept the level parameter too."""
+        for route in ('/', '/img', '/series'):
+            response = self.app.get(f'{route}?level=1')
+            self.assertEqual(response.status_code, 200, route)
 
     def test_api_v1_img(self):
         """Test the /api/v1/img route for base64 image data."""

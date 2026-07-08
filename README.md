@@ -48,6 +48,29 @@ python3 test_app.py
     will return a JSON response of the insult ( see [Detail of the API] )
     https://excusemyfrench.herokuapp.com/api
 
+## Politeness levels
+----
+
+Every insult has a politeness level:
+
+| Level | Name | Content |
+|-------|------|---------|
+| 1 | Safe | Whimsical, old-fashioned, family-friendly (Captain Haddock style) |
+| 2 | Vulgar | Crude or scatological, but targets no one in particular |
+| 3 | Offensive | Discriminatory or extremely graphic |
+
+All routes (HTML and API) accept an optional `level` query parameter. Levels
+are **cumulative**: `?level=1` serves only level 1, `?level=2` serves levels
+1 and 2, and `?level=3` (the default when omitted) serves everything.
+An invalid value returns a `400`.
+
+Examples:
+```
+/?level=1
+/api/v1?level=2
+/api/v1/img?level=1
+```
+
 ## Details of the API
 ----
 
@@ -56,6 +79,7 @@ python3 test_app.py
 
 * **URL:** `/api/v1`
 * **Method:** `GET`
+* **URL Params:** `level=[1|2|3]` (optional, default 3 — see [Politeness levels](#politeness-levels))
 * **Success Response:**
   * **Code:** 200
     **Content:**
@@ -64,7 +88,8 @@ python3 test_app.py
       "insult":
       {
         "text": "Playboy De Superette" ,
-        "index": 356
+        "index": 356,
+        "level": 1
       }
     }
     ```
@@ -74,6 +99,7 @@ python3 test_app.py
 
 * **URL:** `/api/v1/img`
 * **Method:** `GET`
+* **URL Params:** `level=[1|2|3]` (optional, default 3)
 * **Success Response:**
   * **Code:** 200
     **Content:**
@@ -81,7 +107,8 @@ python3 test_app.py
     {
       "insult": {
         "text": "Loutre Analphabète",
-        "index": 254
+        "index": 254,
+        "level": 1
       },
       "image": {
         "data": "/9j/4AA*****",

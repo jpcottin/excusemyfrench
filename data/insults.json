@@ -1,529 +1,2102 @@
 [
-  "Abruti",
-  "Ahuri",
-  "Aigrefin",
-  "Anachorète",
-  "Analphabète",
-  "Andouille",
-  "Anus De Poulpe",
-  "Arsouille",
-  "Aspirateur A Muscadet",
-  "Assisté",
-  "Asticot",
-  "Attardé",
-  "Avorton",
-  "Babache",
-  "Bachibouzouk",
-  "Balai de Chiottes",
-  "Baltringue",
-  "Banane",
-  "Bandit",
-  "Barjot",
-  "Batârd",
-  "Betterave",
-  "Bigleux",
-  "Blaireau",
-  "Boloss",
-  "Bordel",
-  "Bordel à Cul",
-  "Boudin",
-  "Bouffon",
-  "Bougre D’âne",
-  "Bougre D’imbécile",
-  "Bougre De Congre",
-  "Bougre De Conne",
-  "Boule De Pus",
-  "Boulet",
-  "Bouricot",
-  "Bourique",
-  "Bourrin",
-  "Boursemolle",
-  "Boursouflure",
-  "Bouseux",
-  "Boutonneux",
-  "Branleur",
-  "Branlotin",
-  "Branque",
-  "Branquignole",
-  "Brigand",
-  "Brêle",
-  "Brosse à Chiottes",
-  "Bubon Puant",
-  "Burne",
-  "Butor",
-  "Bécasse",
-  "Bégueule",
-  "Bélitre",
-  "Béotien",
-  "Bête",
-  "Cageot",
-  "Cagole",
-  "Calice",
-  "Canaille",
-  "Canaillou",
-  "Cancrelat",
-  "Caprinophile",
-  "Carburateur à Beaujolais",
-  "Caribou",
-  "Casse-pieds",
-  "Cassos",
-  "Catin",
-  "Cave",
-  "Cervelle D’huitre",
-  "Chacal",
-  "Chacal Puant",
-  "Chafouin",
-  "Chameau",
-  "Chancreux",
-  "Chancre puant",
-  "Chaoui",
-  "Charogne",
-  "Chenapan",
-  "Chiassard",
-  "Chiasse De Caca Fondu",
-  "Chieur",
-  "Chiure De Pigeon",
-  "Cinglé",
-  "Clampin",
-  "Cloaque",
-  "Cloche",
-  "Clodo",
-  "Cloporte",
-  "Clown",
-  "Cochon",
-  "Cocu",
-  "Con",
-  "Conard",
-  "Conchieur",
-  "Concombre",
-  "Connard",
-  "Connasse",
-  "Conne",
-  "Coprolithe",
-  "Coprophage",
-  "Cornard",
-  "Cornegidouille",
-  "Corniaud",
-  "Cornichon",
-  "Couard",
-  "Couille De Tétard",
-  "Couille Molle",
-  "Couillon",
-  "Crapaud De Pissotière",
-  "Crapule",
-  "Crassard",
-  "Crasspouillard!",
-  "Crevard",
-  "Crevure",
-  "Crotte De Moineau",
-  "Cryptorchide",
-  "Crâne D’obus",
-  "Crétin",
-  "Crétin Des Alpes",
-  "Crétin Des Iles",
-  "Crétin Goîtreux",
-  "Cuistre",
-  "Cul De Babouin",
-  "Cul Terreux",
-  "Dégueulasse",
-  "Don Juan De Pissotière",
-  "Ducon",
-  "Dugenou",
-  "Dugland",
-  "Dypterosodomite",
-  "Débile",
-  "Décamerde",
-  "Décérébré",
-  "Dégueulis",
-  "Dégénéré Chromozomique",
-  "Dégénéré Du Bulbe",
-  "Dépravé",
-  "Détritus",
-  "Ecervelé",
-  "Ectoplasme",
-  "Emmerdeur",
-  "Empaffé",
-  "Emplâtre",
-  "Empoté",
-  "Enculeur De Mouches",
-  "Enculé",
-  "Enflure",
-  "Enfoiré",
-  "Erreur De La Nature",
-  "Eunuque",
-  "Face De Cul",
-  "Face De Pet",
-  "Face De Rat",
-  "Faquin",
-  "Faraud",
-  "Faux Jeton",
-  "Fesse D’huitre",
-  "Fesse De Moule",
-  "Fesses Molles",
-  "Fiente",
-  "Filou",
-  "Fini à L’urine",
-  "Fion",
-  "Fiote",
-  "Flaque De Pus",
-  "Foireux",
-  "Foldingue",
-  "Fonctionnaire",
-  "Fouille Merde",
-  "Four à Merde",
-  "Fourbe",
-  "Foutriquet",
-  "Frapadingue",
-  "Frappe",
-  "Freluquet",
-  "Fricoteur",
-  "Frigide",
-  "Fripouille",
-  "Frippon",
-  "Frustré",
-  "Fumier",
-  "Fumiste",
-  "Furoncle",
-  "Félon",
-  "Ganache",
-  "Gangrène",
-  "Garage A Bite",
-  "Gibier De Potence",
-  "Gland",
-  "Glandeur",
-  "Glandus",
-  "Globicéphale",
-  "Gnome",
-  "Godiche",
-  "Gogol",
-  "Goinfre",
-  "Gommeux",
-  "Gougnafier",
-  "Goujat",
-  "Goulu",
-  "Gourdasse",
-  "Gourgandin",
-  "Gourgandine",
-  "Grand Cornichon",
-  "Grand Dépandeur D’andouilles",
-  "Gras Du Bide",
-  "Graveleux",
-  "Gredin",
-  "Grenouille",
-  "Gringalet",
-  "Grognasse",
-  "Gros Caca Poilu",
-  "Gros Con",
-  "Gros Lard",
-  "Grosse Merde Puante",
-  "Grosse Truie Violette",
-  "Grue",
-  "Gueulard",
-  "Gueule De Fion",
-  "Gueule De Raie",
-  "Gueux",
-  "Gugus",
-  "Guignol",
-  "Has-been",
-  "Hérétique",
-  "Histrion",
-  "Homoncule",
-  "Hostie D’épais",
-  "Hurluberlu",
-  "Hérétique",
-  "Iconoclaste",
-  "Idiot",
-  "Ignare",
-  "Illettré",
-  "Imbibé",
-  "Imbécile",
-  "Impuissant",
-  "Infâme Raie De Cul",
-  "Ironie De La Création",
-  "Ivrogne",
-  "Jaune",
-  "Jean-foutre",
-  "Jobard",
-  "Jobastre",
-  "Judas",
-  "Kroumir",
-  "Kéké",
-  "Laideron",
-  "Larve",
-  "Lavedu",
-  "Lépreux",
-  "Loboto",
-  "Loutre Analphabète",
-  "Lèche-cul",
-  "Malandrin",
-  "Malotru",
-  "Malpropre",
-  "Manant",
-  "Manche à Couille",
-  "Mange Merde",
-  "Maquereau",
-  "Maquerelle",
-  "Maraud",
-  "Marchand De Tapis",
-  "Margoulin",
-  "Merdaillon",
-  "Merdasse",
-  "Merde",
-  "Merde Molle",
-  "Merdophile",
-  "Merlan Frit",
-  "Microcéphale",
-  "Minable",
-  "Minus",
-  "Miteux",
-  "Moins Que Rien",
-  "Molasson",
-  "Mongol",
-  "Mononeuronal",
-  "Mont De Brin",
-  "Morbleu",
-  "Morfale",
-  "Morille",
-  "Morpion",
-  "Mortecouille",
-  "Morue",
-  "Morveux",
-  "Mou Du Bulbe",
-  "Mou Du Genou",
-  "Mou Du Gland",
-  "Moudlabite",
-  "Moule à Gauffre",
-  "Mouton De Panurge",
-  "Méchant",
-  "Mécréant",
-  "Mérule",
-  "Nabot",
-  "Nain De Jardin",
-  "Nanar",
-  "Naze",
-  "Nazillon",
-  "Necropédophile",
-  "Neuneu",
-  "Nez De Boeuf",
-  "Niais",
-  "Niaiseux",
-  "Nigaud",
-  "Niguedouille",
-  "Noob",
-  "Nounouille",
-  "Nécrophile",
-  "Obsédé",
-  "Oiseau De Mauvaise Augure",
-  "Olibrius",
-  "Ordure Purulente",
-  "Outre à Pisse",
-  "Outrecuidant",
-  "Pachyderme",
-  "Paltoquet",
-  "Panaris",
-  "Parasite",
-  "Parbleu",
-  "Parvenu",
-  "Patate",
-  "Paumé",
-  "Pauvre Con",
-  "Paysan",
-  "Peau De Bite",
-  "Peau De Vache",
-  "Pecore",
-  "Peigne-cul",
-  "Peine à Jouir",
-  "Pendard",
-  "Pervers",
-  "Pet De Moule",
-  "Petite Merde",
-  "Petzouille",
-  "Phlegmon",
-  "Pigeon",
-  "Pignolo",
-  "Pignouf",
-  "Pimbêche",
-  "Pinailleur",
-  "Pine D’ours",
-  "Pine D’huitre",
-  "Pintade",
-  "Pipistrelle Puante",
-  "Piqueniquedouille",
-  "Pisse Froid",
-  "Pisse-vinaigre",
-  "Pisseuse",
-  "Pissure",
-  "Piètre",
-  "Planqué",
-  "Playboy De Superette",
-  "Pleutre",
-  "Plouc",
-  "Poire",
-  "Poireau",
-  "Poivrot",
-  "Polisson",
-  "Poltron",
-  "Pompe A Merde",
-  "Porc",
-  "Pot de chambre",
-  "Pouacreux",
-  "Pouffe",
-  "Pouffiasse",
-  "Poufieux",
-  "Pouilleux",
-  "Pourceau",
-  "Pourriture",
-  "Pousse Mégot",
-  "Punaise",
-  "Putassière",
-  "Pute Au Rabais",
-  "Pute Borgne",
-  "Putréfaction",
-  "Pygocéphale",
-  "Pécore",
-  "Pédale",
-  "Péquenot",
-  "Pétasse",
-  "Pétassoïde Conassiforme",
-  "Pétochard",
-  "Quadrizomique",
-  "Queutard",
-  "Quiche",
-  "Raclure De Bidet",
-  "Raclure De Chiotte",
-  "Radasse",
-  "Radin",
-  "Ramassis De Chiure De Moineau",
-  "Rambo De Pacotille",
-  "Rastaquouère",
-  "Renégat",
-  "Roquet",
-  "Roublard",
-  "Rouge",
-  "Roulure",
-  "Résidu De Fausse Couche",
-  "Résidus De Partouze",
-  "Sabraque",
-  "Sac à Brin",
-  "Sac à Foutre",
-  "Sac à Gnole",
-  "Sac à Merde",
-  "Sac à Viande",
-  "Sac à Vin",
-  "Sacrebleu",
-  "Sacrement",
-  "Sacripan",
-  "Sagouin",
-  "Salaud",
-  "Saleté",
-  "Saligaud",
-  "Salopard",
-  "Salope",
-  "Saloperie",
-  "Salopiaud",
-  "Saltimbanque",
-  "Saperlipopette",
-  "Saperlotte",
-  "Sauvage",
-  "Scaphandrier D’eau De Vaiselle",
-  "Scatophile",
-  "Scélérat",
-  "Schnock",
-  "Schpountz",
-  "Serpillière à Foutre",
-  "Sinistrose Ambulante",
-  "Sinoque",
-  "Sodomite",
-  "Sombre Conne",
-  "Sombre Crétin",
-  "Sot",
-  "Souillon",
-  "Sous Merde",
-  "Spermatozoide Avarié",
-  "Spermiducte",
-  "Suintance",
-  "Sybarite",
-  "Siphonné",
-  "Tabarnak",
-  "Tabernacle",
-  "Tâcheron",
-  "Tafiole",
-  "Tanche",
-  "Tartignole",
-  "Taré",
-  "Tas De Saindoux",
-  "Tasse à Foutre",
-  "Thon",
-  "Tire Couilles",
-  "Tocard",
-  "Tonnerre De Brest",
-  "Toqué",
-  "Trainé",
-  "Traîne Savate",
-  "Tricard",
-  "Triple Buse",
-  "Tromblon",
-  "Tronche De Cake",
-  "Trou De Balle",
-  "Trou Du Cul",
-  "Troubignole",
-  "Truand",
-  "Trumeaux",
-  "Tuberculeux",
-  "Tudieu",
-  "Tétârd",
-  "Tête D’ampoule",
-  "Tête De Bite",
-  "Tête De Chibre",
-  "Tête De Con",
-  "Tête De Noeud",
-  "Tête à Claques",
-  "Usurpateur",
-  "Va Nu Pieds",
-  "Va Te Faire",
-  "Vandale",
-  "Vaurien",
-  "Vautour",
-  "Ventrebleu",
-  "Vermine",
-  "Veule",
-  "Vicelard",
-  "Vieille Baderne",
-  "Vieille Poule",
-  "Vieille Taupe",
-  "Vieux Chnoque",
-  "Vieux Con",
-  "Vieux Fossile",
-  "Vieux Tableau",
-  "Vieux Tromblon",
-  "Vilain",
-  "Vilain Comme Une Couvée De Singe",
-  "Vioque",
-  "Vipère Lubrique",
-  "Voleur",
-  "Vorace",
-  "Voyou",
-  "Vérole",
-  "Wisigoth",
-  "Yéti Baveux",
-  "Zigomar",
-  "Zigoto",
-  "Zonard",
-  "Zouave",
-  "Zoulou",
-  "Zozo",
-  "Zéro",
-  "Bachi-Bouzouk des Carpathes",
-  "Bougre d’ectoplasme de moule à gaufres",
-  "Tas de cornichons",
-  "Grotesque polichinelle",
-  "Vapoteur",
-  "Pantacourtiste",
-  "Tatoué",
-  "Influenceur",
-  "Totebaguiste",
-  "Trottinettiste",
-  "Uberiste",
-  "Millenial",
-  "Bougre de faux jeton à la sauce tartare"
+  {
+    "text": "Abruti",
+    "level": 1
+  },
+  {
+    "text": "Ahuri",
+    "level": 1
+  },
+  {
+    "text": "Aigrefin",
+    "level": 1
+  },
+  {
+    "text": "Anachorète",
+    "level": 1
+  },
+  {
+    "text": "Analphabète",
+    "level": 1
+  },
+  {
+    "text": "Andouille",
+    "level": 1
+  },
+  {
+    "text": "Anus De Poulpe",
+    "level": 2
+  },
+  {
+    "text": "Arsouille",
+    "level": 1
+  },
+  {
+    "text": "Aspirateur A Muscadet",
+    "level": 1
+  },
+  {
+    "text": "Assisté",
+    "level": 2
+  },
+  {
+    "text": "Asticot",
+    "level": 1
+  },
+  {
+    "text": "Attardé",
+    "level": 3
+  },
+  {
+    "text": "Avorton",
+    "level": 2
+  },
+  {
+    "text": "Babache",
+    "level": 1
+  },
+  {
+    "text": "Bachibouzouk",
+    "level": 1
+  },
+  {
+    "text": "Balai de Chiottes",
+    "level": 2
+  },
+  {
+    "text": "Baltringue",
+    "level": 2
+  },
+  {
+    "text": "Banane",
+    "level": 1
+  },
+  {
+    "text": "Bandit",
+    "level": 1
+  },
+  {
+    "text": "Barjot",
+    "level": 1
+  },
+  {
+    "text": "Batârd",
+    "level": 2
+  },
+  {
+    "text": "Betterave",
+    "level": 1
+  },
+  {
+    "text": "Bigleux",
+    "level": 2
+  },
+  {
+    "text": "Blaireau",
+    "level": 1
+  },
+  {
+    "text": "Boloss",
+    "level": 1
+  },
+  {
+    "text": "Bordel",
+    "level": 2
+  },
+  {
+    "text": "Bordel à Cul",
+    "level": 2
+  },
+  {
+    "text": "Boudin",
+    "level": 2
+  },
+  {
+    "text": "Bouffon",
+    "level": 1
+  },
+  {
+    "text": "Bougre D’âne",
+    "level": 1
+  },
+  {
+    "text": "Bougre D’imbécile",
+    "level": 1
+  },
+  {
+    "text": "Bougre De Congre",
+    "level": 1
+  },
+  {
+    "text": "Bougre De Conne",
+    "level": 2
+  },
+  {
+    "text": "Boule De Pus",
+    "level": 2
+  },
+  {
+    "text": "Boulet",
+    "level": 1
+  },
+  {
+    "text": "Bouricot",
+    "level": 1
+  },
+  {
+    "text": "Bourique",
+    "level": 1
+  },
+  {
+    "text": "Bourrin",
+    "level": 1
+  },
+  {
+    "text": "Boursemolle",
+    "level": 2
+  },
+  {
+    "text": "Boursouflure",
+    "level": 1
+  },
+  {
+    "text": "Bouseux",
+    "level": 2
+  },
+  {
+    "text": "Boutonneux",
+    "level": 1
+  },
+  {
+    "text": "Branleur",
+    "level": 2
+  },
+  {
+    "text": "Branlotin",
+    "level": 2
+  },
+  {
+    "text": "Branque",
+    "level": 1
+  },
+  {
+    "text": "Branquignole",
+    "level": 1
+  },
+  {
+    "text": "Brigand",
+    "level": 1
+  },
+  {
+    "text": "Brêle",
+    "level": 1
+  },
+  {
+    "text": "Brosse à Chiottes",
+    "level": 2
+  },
+  {
+    "text": "Bubon Puant",
+    "level": 2
+  },
+  {
+    "text": "Burne",
+    "level": 2
+  },
+  {
+    "text": "Butor",
+    "level": 1
+  },
+  {
+    "text": "Bécasse",
+    "level": 1
+  },
+  {
+    "text": "Bégueule",
+    "level": 1
+  },
+  {
+    "text": "Bélitre",
+    "level": 1
+  },
+  {
+    "text": "Béotien",
+    "level": 1
+  },
+  {
+    "text": "Bête",
+    "level": 1
+  },
+  {
+    "text": "Cageot",
+    "level": 2
+  },
+  {
+    "text": "Cagole",
+    "level": 2
+  },
+  {
+    "text": "Calice",
+    "level": 1
+  },
+  {
+    "text": "Canaille",
+    "level": 1
+  },
+  {
+    "text": "Canaillou",
+    "level": 1
+  },
+  {
+    "text": "Cancrelat",
+    "level": 1
+  },
+  {
+    "text": "Caprinophile",
+    "level": 2
+  },
+  {
+    "text": "Carburateur à Beaujolais",
+    "level": 1
+  },
+  {
+    "text": "Caribou",
+    "level": 1
+  },
+  {
+    "text": "Casse-pieds",
+    "level": 1
+  },
+  {
+    "text": "Cassos",
+    "level": 3
+  },
+  {
+    "text": "Catin",
+    "level": 2
+  },
+  {
+    "text": "Cave",
+    "level": 1
+  },
+  {
+    "text": "Cervelle D’huitre",
+    "level": 1
+  },
+  {
+    "text": "Chacal",
+    "level": 1
+  },
+  {
+    "text": "Chacal Puant",
+    "level": 1
+  },
+  {
+    "text": "Chafouin",
+    "level": 1
+  },
+  {
+    "text": "Chameau",
+    "level": 1
+  },
+  {
+    "text": "Chancreux",
+    "level": 2
+  },
+  {
+    "text": "Chancre puant",
+    "level": 2
+  },
+  {
+    "text": "Chaoui",
+    "level": 3
+  },
+  {
+    "text": "Charogne",
+    "level": 2
+  },
+  {
+    "text": "Chenapan",
+    "level": 1
+  },
+  {
+    "text": "Chiassard",
+    "level": 2
+  },
+  {
+    "text": "Chiasse De Caca Fondu",
+    "level": 2
+  },
+  {
+    "text": "Chieur",
+    "level": 2
+  },
+  {
+    "text": "Chiure De Pigeon",
+    "level": 2
+  },
+  {
+    "text": "Cinglé",
+    "level": 1
+  },
+  {
+    "text": "Clampin",
+    "level": 1
+  },
+  {
+    "text": "Cloaque",
+    "level": 1
+  },
+  {
+    "text": "Cloche",
+    "level": 1
+  },
+  {
+    "text": "Clodo",
+    "level": 3
+  },
+  {
+    "text": "Cloporte",
+    "level": 1
+  },
+  {
+    "text": "Clown",
+    "level": 1
+  },
+  {
+    "text": "Cochon",
+    "level": 1
+  },
+  {
+    "text": "Cocu",
+    "level": 2
+  },
+  {
+    "text": "Con",
+    "level": 2
+  },
+  {
+    "text": "Conard",
+    "level": 2
+  },
+  {
+    "text": "Conchieur",
+    "level": 2
+  },
+  {
+    "text": "Concombre",
+    "level": 1
+  },
+  {
+    "text": "Connard",
+    "level": 2
+  },
+  {
+    "text": "Connasse",
+    "level": 2
+  },
+  {
+    "text": "Conne",
+    "level": 2
+  },
+  {
+    "text": "Coprolithe",
+    "level": 1
+  },
+  {
+    "text": "Coprophage",
+    "level": 2
+  },
+  {
+    "text": "Cornard",
+    "level": 2
+  },
+  {
+    "text": "Cornegidouille",
+    "level": 1
+  },
+  {
+    "text": "Corniaud",
+    "level": 1
+  },
+  {
+    "text": "Cornichon",
+    "level": 1
+  },
+  {
+    "text": "Couard",
+    "level": 1
+  },
+  {
+    "text": "Couille De Tétard",
+    "level": 2
+  },
+  {
+    "text": "Couille Molle",
+    "level": 2
+  },
+  {
+    "text": "Couillon",
+    "level": 2
+  },
+  {
+    "text": "Crapaud De Pissotière",
+    "level": 2
+  },
+  {
+    "text": "Crapule",
+    "level": 1
+  },
+  {
+    "text": "Crassard",
+    "level": 1
+  },
+  {
+    "text": "Crasspouillard!",
+    "level": 1
+  },
+  {
+    "text": "Crevard",
+    "level": 2
+  },
+  {
+    "text": "Crevure",
+    "level": 2
+  },
+  {
+    "text": "Crotte De Moineau",
+    "level": 1
+  },
+  {
+    "text": "Cryptorchide",
+    "level": 2
+  },
+  {
+    "text": "Crâne D’obus",
+    "level": 1
+  },
+  {
+    "text": "Crétin",
+    "level": 1
+  },
+  {
+    "text": "Crétin Des Alpes",
+    "level": 2
+  },
+  {
+    "text": "Crétin Des Iles",
+    "level": 2
+  },
+  {
+    "text": "Crétin Goîtreux",
+    "level": 3
+  },
+  {
+    "text": "Cuistre",
+    "level": 1
+  },
+  {
+    "text": "Cul De Babouin",
+    "level": 2
+  },
+  {
+    "text": "Cul Terreux",
+    "level": 2
+  },
+  {
+    "text": "Dégueulasse",
+    "level": 1
+  },
+  {
+    "text": "Don Juan De Pissotière",
+    "level": 2
+  },
+  {
+    "text": "Ducon",
+    "level": 2
+  },
+  {
+    "text": "Dugenou",
+    "level": 1
+  },
+  {
+    "text": "Dugland",
+    "level": 2
+  },
+  {
+    "text": "Dypterosodomite",
+    "level": 2
+  },
+  {
+    "text": "Débile",
+    "level": 2
+  },
+  {
+    "text": "Décamerde",
+    "level": 2
+  },
+  {
+    "text": "Décérébré",
+    "level": 1
+  },
+  {
+    "text": "Dégueulis",
+    "level": 2
+  },
+  {
+    "text": "Dégénéré Chromozomique",
+    "level": 3
+  },
+  {
+    "text": "Dégénéré Du Bulbe",
+    "level": 2
+  },
+  {
+    "text": "Dépravé",
+    "level": 1
+  },
+  {
+    "text": "Détritus",
+    "level": 1
+  },
+  {
+    "text": "Ecervelé",
+    "level": 1
+  },
+  {
+    "text": "Ectoplasme",
+    "level": 1
+  },
+  {
+    "text": "Emmerdeur",
+    "level": 2
+  },
+  {
+    "text": "Empaffé",
+    "level": 2
+  },
+  {
+    "text": "Emplâtre",
+    "level": 1
+  },
+  {
+    "text": "Empoté",
+    "level": 1
+  },
+  {
+    "text": "Enculeur De Mouches",
+    "level": 2
+  },
+  {
+    "text": "Enculé",
+    "level": 2
+  },
+  {
+    "text": "Enflure",
+    "level": 2
+  },
+  {
+    "text": "Enfoiré",
+    "level": 2
+  },
+  {
+    "text": "Erreur De La Nature",
+    "level": 2
+  },
+  {
+    "text": "Eunuque",
+    "level": 2
+  },
+  {
+    "text": "Face De Cul",
+    "level": 2
+  },
+  {
+    "text": "Face De Pet",
+    "level": 1
+  },
+  {
+    "text": "Face De Rat",
+    "level": 1
+  },
+  {
+    "text": "Faquin",
+    "level": 1
+  },
+  {
+    "text": "Faraud",
+    "level": 1
+  },
+  {
+    "text": "Faux Jeton",
+    "level": 1
+  },
+  {
+    "text": "Fesse D’huitre",
+    "level": 1
+  },
+  {
+    "text": "Fesse De Moule",
+    "level": 2
+  },
+  {
+    "text": "Fesses Molles",
+    "level": 1
+  },
+  {
+    "text": "Fiente",
+    "level": 1
+  },
+  {
+    "text": "Filou",
+    "level": 1
+  },
+  {
+    "text": "Fini à L’urine",
+    "level": 2
+  },
+  {
+    "text": "Fion",
+    "level": 2
+  },
+  {
+    "text": "Fiote",
+    "level": 3
+  },
+  {
+    "text": "Flaque De Pus",
+    "level": 2
+  },
+  {
+    "text": "Foireux",
+    "level": 1
+  },
+  {
+    "text": "Foldingue",
+    "level": 1
+  },
+  {
+    "text": "Fonctionnaire",
+    "level": 1
+  },
+  {
+    "text": "Fouille Merde",
+    "level": 2
+  },
+  {
+    "text": "Four à Merde",
+    "level": 2
+  },
+  {
+    "text": "Fourbe",
+    "level": 1
+  },
+  {
+    "text": "Foutriquet",
+    "level": 1
+  },
+  {
+    "text": "Frapadingue",
+    "level": 1
+  },
+  {
+    "text": "Frappe",
+    "level": 1
+  },
+  {
+    "text": "Freluquet",
+    "level": 1
+  },
+  {
+    "text": "Fricoteur",
+    "level": 1
+  },
+  {
+    "text": "Frigide",
+    "level": 2
+  },
+  {
+    "text": "Fripouille",
+    "level": 1
+  },
+  {
+    "text": "Frippon",
+    "level": 1
+  },
+  {
+    "text": "Frustré",
+    "level": 1
+  },
+  {
+    "text": "Fumier",
+    "level": 2
+  },
+  {
+    "text": "Fumiste",
+    "level": 1
+  },
+  {
+    "text": "Furoncle",
+    "level": 1
+  },
+  {
+    "text": "Félon",
+    "level": 1
+  },
+  {
+    "text": "Ganache",
+    "level": 1
+  },
+  {
+    "text": "Gangrène",
+    "level": 1
+  },
+  {
+    "text": "Garage A Bite",
+    "level": 3
+  },
+  {
+    "text": "Gibier De Potence",
+    "level": 1
+  },
+  {
+    "text": "Gland",
+    "level": 2
+  },
+  {
+    "text": "Glandeur",
+    "level": 1
+  },
+  {
+    "text": "Glandus",
+    "level": 1
+  },
+  {
+    "text": "Globicéphale",
+    "level": 1
+  },
+  {
+    "text": "Gnome",
+    "level": 1
+  },
+  {
+    "text": "Godiche",
+    "level": 1
+  },
+  {
+    "text": "Gogol",
+    "level": 3
+  },
+  {
+    "text": "Goinfre",
+    "level": 1
+  },
+  {
+    "text": "Gommeux",
+    "level": 1
+  },
+  {
+    "text": "Gougnafier",
+    "level": 1
+  },
+  {
+    "text": "Goujat",
+    "level": 1
+  },
+  {
+    "text": "Goulu",
+    "level": 1
+  },
+  {
+    "text": "Gourdasse",
+    "level": 2
+  },
+  {
+    "text": "Gourgandin",
+    "level": 1
+  },
+  {
+    "text": "Gourgandine",
+    "level": 2
+  },
+  {
+    "text": "Grand Cornichon",
+    "level": 1
+  },
+  {
+    "text": "Grand Dépandeur D’andouilles",
+    "level": 1
+  },
+  {
+    "text": "Gras Du Bide",
+    "level": 2
+  },
+  {
+    "text": "Graveleux",
+    "level": 1
+  },
+  {
+    "text": "Gredin",
+    "level": 1
+  },
+  {
+    "text": "Grenouille",
+    "level": 1
+  },
+  {
+    "text": "Gringalet",
+    "level": 1
+  },
+  {
+    "text": "Grognasse",
+    "level": 3
+  },
+  {
+    "text": "Gros Caca Poilu",
+    "level": 1
+  },
+  {
+    "text": "Gros Con",
+    "level": 2
+  },
+  {
+    "text": "Gros Lard",
+    "level": 2
+  },
+  {
+    "text": "Grosse Merde Puante",
+    "level": 2
+  },
+  {
+    "text": "Grosse Truie Violette",
+    "level": 2
+  },
+  {
+    "text": "Grue",
+    "level": 2
+  },
+  {
+    "text": "Gueulard",
+    "level": 1
+  },
+  {
+    "text": "Gueule De Fion",
+    "level": 2
+  },
+  {
+    "text": "Gueule De Raie",
+    "level": 1
+  },
+  {
+    "text": "Gueux",
+    "level": 1
+  },
+  {
+    "text": "Gugus",
+    "level": 1
+  },
+  {
+    "text": "Guignol",
+    "level": 1
+  },
+  {
+    "text": "Has-been",
+    "level": 1
+  },
+  {
+    "text": "Hérétique",
+    "level": 1
+  },
+  {
+    "text": "Histrion",
+    "level": 1
+  },
+  {
+    "text": "Homoncule",
+    "level": 1
+  },
+  {
+    "text": "Hostie D’épais",
+    "level": 1
+  },
+  {
+    "text": "Hurluberlu",
+    "level": 1
+  },
+  {
+    "text": "Iconoclaste",
+    "level": 1
+  },
+  {
+    "text": "Idiot",
+    "level": 1
+  },
+  {
+    "text": "Ignare",
+    "level": 1
+  },
+  {
+    "text": "Illettré",
+    "level": 1
+  },
+  {
+    "text": "Imbibé",
+    "level": 1
+  },
+  {
+    "text": "Imbécile",
+    "level": 1
+  },
+  {
+    "text": "Impuissant",
+    "level": 2
+  },
+  {
+    "text": "Infâme Raie De Cul",
+    "level": 2
+  },
+  {
+    "text": "Ironie De La Création",
+    "level": 1
+  },
+  {
+    "text": "Ivrogne",
+    "level": 1
+  },
+  {
+    "text": "Jaune",
+    "level": 3
+  },
+  {
+    "text": "Jean-foutre",
+    "level": 1
+  },
+  {
+    "text": "Jobard",
+    "level": 1
+  },
+  {
+    "text": "Jobastre",
+    "level": 1
+  },
+  {
+    "text": "Judas",
+    "level": 1
+  },
+  {
+    "text": "Kroumir",
+    "level": 2
+  },
+  {
+    "text": "Kéké",
+    "level": 1
+  },
+  {
+    "text": "Laideron",
+    "level": 2
+  },
+  {
+    "text": "Larve",
+    "level": 1
+  },
+  {
+    "text": "Lavedu",
+    "level": 1
+  },
+  {
+    "text": "Lépreux",
+    "level": 3
+  },
+  {
+    "text": "Loboto",
+    "level": 2
+  },
+  {
+    "text": "Loutre Analphabète",
+    "level": 1
+  },
+  {
+    "text": "Lèche-cul",
+    "level": 2
+  },
+  {
+    "text": "Malandrin",
+    "level": 1
+  },
+  {
+    "text": "Malotru",
+    "level": 1
+  },
+  {
+    "text": "Malpropre",
+    "level": 1
+  },
+  {
+    "text": "Manant",
+    "level": 1
+  },
+  {
+    "text": "Manche à Couille",
+    "level": 2
+  },
+  {
+    "text": "Mange Merde",
+    "level": 2
+  },
+  {
+    "text": "Maquereau",
+    "level": 2
+  },
+  {
+    "text": "Maquerelle",
+    "level": 2
+  },
+  {
+    "text": "Maraud",
+    "level": 1
+  },
+  {
+    "text": "Marchand De Tapis",
+    "level": 3
+  },
+  {
+    "text": "Margoulin",
+    "level": 1
+  },
+  {
+    "text": "Merdaillon",
+    "level": 2
+  },
+  {
+    "text": "Merdasse",
+    "level": 2
+  },
+  {
+    "text": "Merde",
+    "level": 2
+  },
+  {
+    "text": "Merde Molle",
+    "level": 2
+  },
+  {
+    "text": "Merdophile",
+    "level": 2
+  },
+  {
+    "text": "Merlan Frit",
+    "level": 1
+  },
+  {
+    "text": "Microcéphale",
+    "level": 2
+  },
+  {
+    "text": "Minable",
+    "level": 1
+  },
+  {
+    "text": "Minus",
+    "level": 1
+  },
+  {
+    "text": "Miteux",
+    "level": 1
+  },
+  {
+    "text": "Moins Que Rien",
+    "level": 1
+  },
+  {
+    "text": "Molasson",
+    "level": 1
+  },
+  {
+    "text": "Mongol",
+    "level": 3
+  },
+  {
+    "text": "Mononeuronal",
+    "level": 1
+  },
+  {
+    "text": "Mont De Brin",
+    "level": 2
+  },
+  {
+    "text": "Morbleu",
+    "level": 1
+  },
+  {
+    "text": "Morfale",
+    "level": 1
+  },
+  {
+    "text": "Morille",
+    "level": 1
+  },
+  {
+    "text": "Morpion",
+    "level": 1
+  },
+  {
+    "text": "Mortecouille",
+    "level": 1
+  },
+  {
+    "text": "Morue",
+    "level": 3
+  },
+  {
+    "text": "Morveux",
+    "level": 1
+  },
+  {
+    "text": "Mou Du Bulbe",
+    "level": 1
+  },
+  {
+    "text": "Mou Du Genou",
+    "level": 1
+  },
+  {
+    "text": "Mou Du Gland",
+    "level": 2
+  },
+  {
+    "text": "Moudlabite",
+    "level": 2
+  },
+  {
+    "text": "Moule à Gauffre",
+    "level": 1
+  },
+  {
+    "text": "Mouton De Panurge",
+    "level": 1
+  },
+  {
+    "text": "Méchant",
+    "level": 1
+  },
+  {
+    "text": "Mécréant",
+    "level": 1
+  },
+  {
+    "text": "Mérule",
+    "level": 1
+  },
+  {
+    "text": "Nabot",
+    "level": 2
+  },
+  {
+    "text": "Nain De Jardin",
+    "level": 2
+  },
+  {
+    "text": "Nanar",
+    "level": 1
+  },
+  {
+    "text": "Naze",
+    "level": 1
+  },
+  {
+    "text": "Nazillon",
+    "level": 2
+  },
+  {
+    "text": "Necropédophile",
+    "level": 3
+  },
+  {
+    "text": "Neuneu",
+    "level": 1
+  },
+  {
+    "text": "Nez De Boeuf",
+    "level": 1
+  },
+  {
+    "text": "Niais",
+    "level": 1
+  },
+  {
+    "text": "Niaiseux",
+    "level": 1
+  },
+  {
+    "text": "Nigaud",
+    "level": 1
+  },
+  {
+    "text": "Niguedouille",
+    "level": 1
+  },
+  {
+    "text": "Noob",
+    "level": 1
+  },
+  {
+    "text": "Nounouille",
+    "level": 1
+  },
+  {
+    "text": "Nécrophile",
+    "level": 2
+  },
+  {
+    "text": "Obsédé",
+    "level": 1
+  },
+  {
+    "text": "Oiseau De Mauvaise Augure",
+    "level": 1
+  },
+  {
+    "text": "Olibrius",
+    "level": 1
+  },
+  {
+    "text": "Ordure Purulente",
+    "level": 2
+  },
+  {
+    "text": "Outre à Pisse",
+    "level": 2
+  },
+  {
+    "text": "Outrecuidant",
+    "level": 1
+  },
+  {
+    "text": "Pachyderme",
+    "level": 2
+  },
+  {
+    "text": "Paltoquet",
+    "level": 1
+  },
+  {
+    "text": "Panaris",
+    "level": 1
+  },
+  {
+    "text": "Parasite",
+    "level": 1
+  },
+  {
+    "text": "Parbleu",
+    "level": 1
+  },
+  {
+    "text": "Parvenu",
+    "level": 1
+  },
+  {
+    "text": "Patate",
+    "level": 1
+  },
+  {
+    "text": "Paumé",
+    "level": 1
+  },
+  {
+    "text": "Pauvre Con",
+    "level": 2
+  },
+  {
+    "text": "Paysan",
+    "level": 2
+  },
+  {
+    "text": "Peau De Bite",
+    "level": 2
+  },
+  {
+    "text": "Peau De Vache",
+    "level": 1
+  },
+  {
+    "text": "Peigne-cul",
+    "level": 2
+  },
+  {
+    "text": "Peine à Jouir",
+    "level": 2
+  },
+  {
+    "text": "Pendard",
+    "level": 1
+  },
+  {
+    "text": "Pervers",
+    "level": 1
+  },
+  {
+    "text": "Pet De Moule",
+    "level": 1
+  },
+  {
+    "text": "Petite Merde",
+    "level": 2
+  },
+  {
+    "text": "Petzouille",
+    "level": 2
+  },
+  {
+    "text": "Phlegmon",
+    "level": 1
+  },
+  {
+    "text": "Pigeon",
+    "level": 1
+  },
+  {
+    "text": "Pignolo",
+    "level": 1
+  },
+  {
+    "text": "Pignouf",
+    "level": 1
+  },
+  {
+    "text": "Pimbêche",
+    "level": 1
+  },
+  {
+    "text": "Pinailleur",
+    "level": 1
+  },
+  {
+    "text": "Pine D’ours",
+    "level": 2
+  },
+  {
+    "text": "Pine D’huitre",
+    "level": 2
+  },
+  {
+    "text": "Pintade",
+    "level": 1
+  },
+  {
+    "text": "Pipistrelle Puante",
+    "level": 1
+  },
+  {
+    "text": "Piqueniquedouille",
+    "level": 1
+  },
+  {
+    "text": "Pisse Froid",
+    "level": 1
+  },
+  {
+    "text": "Pisse-vinaigre",
+    "level": 1
+  },
+  {
+    "text": "Pisseuse",
+    "level": 2
+  },
+  {
+    "text": "Pissure",
+    "level": 2
+  },
+  {
+    "text": "Piètre",
+    "level": 1
+  },
+  {
+    "text": "Planqué",
+    "level": 1
+  },
+  {
+    "text": "Playboy De Superette",
+    "level": 1
+  },
+  {
+    "text": "Pleutre",
+    "level": 1
+  },
+  {
+    "text": "Plouc",
+    "level": 2
+  },
+  {
+    "text": "Poire",
+    "level": 1
+  },
+  {
+    "text": "Poireau",
+    "level": 1
+  },
+  {
+    "text": "Poivrot",
+    "level": 1
+  },
+  {
+    "text": "Polisson",
+    "level": 1
+  },
+  {
+    "text": "Poltron",
+    "level": 1
+  },
+  {
+    "text": "Pompe A Merde",
+    "level": 2
+  },
+  {
+    "text": "Porc",
+    "level": 1
+  },
+  {
+    "text": "Pot de chambre",
+    "level": 1
+  },
+  {
+    "text": "Pouacreux",
+    "level": 1
+  },
+  {
+    "text": "Pouffe",
+    "level": 3
+  },
+  {
+    "text": "Pouffiasse",
+    "level": 3
+  },
+  {
+    "text": "Poufieux",
+    "level": 2
+  },
+  {
+    "text": "Pouilleux",
+    "level": 1
+  },
+  {
+    "text": "Pourceau",
+    "level": 1
+  },
+  {
+    "text": "Pourriture",
+    "level": 2
+  },
+  {
+    "text": "Pousse Mégot",
+    "level": 1
+  },
+  {
+    "text": "Punaise",
+    "level": 1
+  },
+  {
+    "text": "Putassière",
+    "level": 3
+  },
+  {
+    "text": "Pute Au Rabais",
+    "level": 3
+  },
+  {
+    "text": "Pute Borgne",
+    "level": 3
+  },
+  {
+    "text": "Putréfaction",
+    "level": 2
+  },
+  {
+    "text": "Pygocéphale",
+    "level": 1
+  },
+  {
+    "text": "Pécore",
+    "level": 2
+  },
+  {
+    "text": "Pédale",
+    "level": 3
+  },
+  {
+    "text": "Péquenot",
+    "level": 2
+  },
+  {
+    "text": "Pétasse",
+    "level": 3
+  },
+  {
+    "text": "Pétassoïde Conassiforme",
+    "level": 3
+  },
+  {
+    "text": "Pétochard",
+    "level": 1
+  },
+  {
+    "text": "Quadrizomique",
+    "level": 3
+  },
+  {
+    "text": "Queutard",
+    "level": 2
+  },
+  {
+    "text": "Quiche",
+    "level": 1
+  },
+  {
+    "text": "Raclure De Bidet",
+    "level": 2
+  },
+  {
+    "text": "Raclure De Chiotte",
+    "level": 2
+  },
+  {
+    "text": "Radasse",
+    "level": 3
+  },
+  {
+    "text": "Radin",
+    "level": 1
+  },
+  {
+    "text": "Ramassis De Chiure De Moineau",
+    "level": 2
+  },
+  {
+    "text": "Rambo De Pacotille",
+    "level": 1
+  },
+  {
+    "text": "Rastaquouère",
+    "level": 3
+  },
+  {
+    "text": "Renégat",
+    "level": 1
+  },
+  {
+    "text": "Roquet",
+    "level": 1
+  },
+  {
+    "text": "Roublard",
+    "level": 1
+  },
+  {
+    "text": "Rouge",
+    "level": 1
+  },
+  {
+    "text": "Roulure",
+    "level": 3
+  },
+  {
+    "text": "Résidu De Fausse Couche",
+    "level": 3
+  },
+  {
+    "text": "Résidus De Partouze",
+    "level": 2
+  },
+  {
+    "text": "Sabraque",
+    "level": 1
+  },
+  {
+    "text": "Sac à Brin",
+    "level": 2
+  },
+  {
+    "text": "Sac à Foutre",
+    "level": 3
+  },
+  {
+    "text": "Sac à Gnole",
+    "level": 1
+  },
+  {
+    "text": "Sac à Merde",
+    "level": 2
+  },
+  {
+    "text": "Sac à Viande",
+    "level": 1
+  },
+  {
+    "text": "Sac à Vin",
+    "level": 1
+  },
+  {
+    "text": "Sacrebleu",
+    "level": 1
+  },
+  {
+    "text": "Sacrement",
+    "level": 1
+  },
+  {
+    "text": "Sacripan",
+    "level": 1
+  },
+  {
+    "text": "Sagouin",
+    "level": 1
+  },
+  {
+    "text": "Salaud",
+    "level": 2
+  },
+  {
+    "text": "Saleté",
+    "level": 1
+  },
+  {
+    "text": "Saligaud",
+    "level": 2
+  },
+  {
+    "text": "Salopard",
+    "level": 2
+  },
+  {
+    "text": "Salope",
+    "level": 3
+  },
+  {
+    "text": "Saloperie",
+    "level": 2
+  },
+  {
+    "text": "Salopiaud",
+    "level": 2
+  },
+  {
+    "text": "Saltimbanque",
+    "level": 1
+  },
+  {
+    "text": "Saperlipopette",
+    "level": 1
+  },
+  {
+    "text": "Saperlotte",
+    "level": 1
+  },
+  {
+    "text": "Sauvage",
+    "level": 2
+  },
+  {
+    "text": "Scaphandrier D’eau De Vaiselle",
+    "level": 1
+  },
+  {
+    "text": "Scatophile",
+    "level": 2
+  },
+  {
+    "text": "Scélérat",
+    "level": 1
+  },
+  {
+    "text": "Schnock",
+    "level": 1
+  },
+  {
+    "text": "Schpountz",
+    "level": 1
+  },
+  {
+    "text": "Serpillière à Foutre",
+    "level": 3
+  },
+  {
+    "text": "Sinistrose Ambulante",
+    "level": 1
+  },
+  {
+    "text": "Sinoque",
+    "level": 1
+  },
+  {
+    "text": "Sodomite",
+    "level": 3
+  },
+  {
+    "text": "Sombre Conne",
+    "level": 2
+  },
+  {
+    "text": "Sombre Crétin",
+    "level": 1
+  },
+  {
+    "text": "Sot",
+    "level": 1
+  },
+  {
+    "text": "Souillon",
+    "level": 1
+  },
+  {
+    "text": "Sous Merde",
+    "level": 2
+  },
+  {
+    "text": "Spermatozoide Avarié",
+    "level": 2
+  },
+  {
+    "text": "Spermiducte",
+    "level": 2
+  },
+  {
+    "text": "Suintance",
+    "level": 2
+  },
+  {
+    "text": "Sybarite",
+    "level": 1
+  },
+  {
+    "text": "Siphonné",
+    "level": 1
+  },
+  {
+    "text": "Tabarnak",
+    "level": 1
+  },
+  {
+    "text": "Tabernacle",
+    "level": 1
+  },
+  {
+    "text": "Tâcheron",
+    "level": 1
+  },
+  {
+    "text": "Tafiole",
+    "level": 3
+  },
+  {
+    "text": "Tanche",
+    "level": 1
+  },
+  {
+    "text": "Tartignole",
+    "level": 1
+  },
+  {
+    "text": "Taré",
+    "level": 2
+  },
+  {
+    "text": "Tas De Saindoux",
+    "level": 2
+  },
+  {
+    "text": "Tasse à Foutre",
+    "level": 3
+  },
+  {
+    "text": "Thon",
+    "level": 2
+  },
+  {
+    "text": "Tire Couilles",
+    "level": 2
+  },
+  {
+    "text": "Tocard",
+    "level": 1
+  },
+  {
+    "text": "Tonnerre De Brest",
+    "level": 1
+  },
+  {
+    "text": "Toqué",
+    "level": 1
+  },
+  {
+    "text": "Trainé",
+    "level": 3
+  },
+  {
+    "text": "Traîne Savate",
+    "level": 1
+  },
+  {
+    "text": "Tricard",
+    "level": 1
+  },
+  {
+    "text": "Triple Buse",
+    "level": 1
+  },
+  {
+    "text": "Tromblon",
+    "level": 1
+  },
+  {
+    "text": "Tronche De Cake",
+    "level": 1
+  },
+  {
+    "text": "Trou De Balle",
+    "level": 2
+  },
+  {
+    "text": "Trou Du Cul",
+    "level": 2
+  },
+  {
+    "text": "Troubignole",
+    "level": 2
+  },
+  {
+    "text": "Truand",
+    "level": 1
+  },
+  {
+    "text": "Trumeaux",
+    "level": 1
+  },
+  {
+    "text": "Tuberculeux",
+    "level": 3
+  },
+  {
+    "text": "Tudieu",
+    "level": 1
+  },
+  {
+    "text": "Tétârd",
+    "level": 1
+  },
+  {
+    "text": "Tête D’ampoule",
+    "level": 1
+  },
+  {
+    "text": "Tête De Bite",
+    "level": 2
+  },
+  {
+    "text": "Tête De Chibre",
+    "level": 2
+  },
+  {
+    "text": "Tête De Con",
+    "level": 2
+  },
+  {
+    "text": "Tête De Noeud",
+    "level": 2
+  },
+  {
+    "text": "Tête à Claques",
+    "level": 1
+  },
+  {
+    "text": "Usurpateur",
+    "level": 1
+  },
+  {
+    "text": "Va Nu Pieds",
+    "level": 1
+  },
+  {
+    "text": "Va Te Faire",
+    "level": 2
+  },
+  {
+    "text": "Vandale",
+    "level": 1
+  },
+  {
+    "text": "Vaurien",
+    "level": 1
+  },
+  {
+    "text": "Vautour",
+    "level": 1
+  },
+  {
+    "text": "Ventrebleu",
+    "level": 1
+  },
+  {
+    "text": "Vermine",
+    "level": 1
+  },
+  {
+    "text": "Veule",
+    "level": 1
+  },
+  {
+    "text": "Vicelard",
+    "level": 1
+  },
+  {
+    "text": "Vieille Baderne",
+    "level": 1
+  },
+  {
+    "text": "Vieille Poule",
+    "level": 1
+  },
+  {
+    "text": "Vieille Taupe",
+    "level": 1
+  },
+  {
+    "text": "Vieux Chnoque",
+    "level": 1
+  },
+  {
+    "text": "Vieux Con",
+    "level": 2
+  },
+  {
+    "text": "Vieux Fossile",
+    "level": 1
+  },
+  {
+    "text": "Vieux Tableau",
+    "level": 1
+  },
+  {
+    "text": "Vieux Tromblon",
+    "level": 1
+  },
+  {
+    "text": "Vilain",
+    "level": 1
+  },
+  {
+    "text": "Vilain Comme Une Couvée De Singe",
+    "level": 2
+  },
+  {
+    "text": "Vioque",
+    "level": 1
+  },
+  {
+    "text": "Vipère Lubrique",
+    "level": 1
+  },
+  {
+    "text": "Voleur",
+    "level": 1
+  },
+  {
+    "text": "Vorace",
+    "level": 1
+  },
+  {
+    "text": "Voyou",
+    "level": 1
+  },
+  {
+    "text": "Vérole",
+    "level": 2
+  },
+  {
+    "text": "Wisigoth",
+    "level": 1
+  },
+  {
+    "text": "Yéti Baveux",
+    "level": 1
+  },
+  {
+    "text": "Zigomar",
+    "level": 1
+  },
+  {
+    "text": "Zigoto",
+    "level": 1
+  },
+  {
+    "text": "Zonard",
+    "level": 1
+  },
+  {
+    "text": "Zouave",
+    "level": 1
+  },
+  {
+    "text": "Zoulou",
+    "level": 3
+  },
+  {
+    "text": "Zozo",
+    "level": 1
+  },
+  {
+    "text": "Zéro",
+    "level": 1
+  },
+  {
+    "text": "Bachi-Bouzouk des Carpathes",
+    "level": 1
+  },
+  {
+    "text": "Bougre d’ectoplasme de moule à gaufres",
+    "level": 1
+  },
+  {
+    "text": "Tas de cornichons",
+    "level": 1
+  },
+  {
+    "text": "Grotesque polichinelle",
+    "level": 1
+  },
+  {
+    "text": "Vapoteur",
+    "level": 1
+  },
+  {
+    "text": "Pantacourtiste",
+    "level": 1
+  },
+  {
+    "text": "Tatoué",
+    "level": 1
+  },
+  {
+    "text": "Influenceur",
+    "level": 1
+  },
+  {
+    "text": "Totebaguiste",
+    "level": 1
+  },
+  {
+    "text": "Trottinettiste",
+    "level": 1
+  },
+  {
+    "text": "Uberiste",
+    "level": 1
+  },
+  {
+    "text": "Millenial",
+    "level": 1
+  },
+  {
+    "text": "Bougre de faux jeton à la sauce tartare",
+    "level": 1
+  }
 ]
